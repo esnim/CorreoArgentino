@@ -1,11 +1,11 @@
 <?php
 namespace CorreoArgentino;
 
-class Api
+class API
 {
     /**
      * Servicio para hacer peticiones HTTP.
-     * @var \CorreoArgentino\Http
+     * @var \CorreoArgentino\HTTP
      */
     private $http;
     
@@ -22,7 +22,7 @@ class Api
 
     public function __construct()
     {
-        $this->http = new \CorreoArgentino\Http();
+        $this->http = new \CorreoArgentino\HTTP();
     }
     
     public function setTestMode($test_mode)

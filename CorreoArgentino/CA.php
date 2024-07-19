@@ -17,7 +17,7 @@ class CA
     
     /**
      * 
-     * @var \CorreoArgentino\Api()
+     * @var \CorreoArgentino\API
      */
     private $api = null;
     
@@ -67,12 +67,12 @@ class CA
     
     /**
      * Obtener una instancia de la API.
-     * @return \CorreoArgentino\Api
+     * @return \CorreoArgentino\API
      */
     public function getApi()
     {
         if ($this->api === null) {
-            $this->api = new \CorreoArgentino\Api();
+            $this->api = new \CorreoArgentino\API();
         }
         
         return $this->api;

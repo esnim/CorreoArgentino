@@ -1,7 +1,7 @@
 <?php
 namespace CorreoArgentino;
 
-class Http
+class HTTP
 {
     const INFORMATIONAL = 1;
     const SUCCESSFUL    = 2;
